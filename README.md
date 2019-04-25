@@ -6,7 +6,7 @@ A simple plugin that adds keyboard-based code folding to Gedit.
 Installation
 --------------
 
-####Unix/Linux
+#### Unix/Linux
 * Simplest: Move `folding.plugin` and `folding.py` into `~/.local/share/gedit/plugins`
 * More convenient:
 ```
@@ -19,7 +19,7 @@ Then
 
 * In Gedit, go to Edit &rarr; Preferences &rarr; Plugins to enable the plugin.
 
-####Windows
+#### Windows
 
 **Note**: As stated in IRC conversation at #gedit public channel, gedit3 is not ready for Windows (yet). Eventually this installation section will be updated when gedit3 supports Windows.
 
