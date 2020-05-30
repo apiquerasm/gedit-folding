@@ -1,33 +1,22 @@
-Code Folding for Gedit
-========================
+# Markdown Folding for Gedit
 
-A simple plugin that adds keyboard-based code folding to Gedit.
+A simple plugin that adds code folding to Markdown files in Gedit. This plugin allows you to collapse and expand Markdown headers.
 
-Installation
---------------
+## Installation
 
-#### Unix/Linux
-* Simplest: Move `folding.plugin` and `folding.py` into `~/.local/share/gedit/plugins`
-* More convenient:
+### GNU/Linux
+* Simplest: Move `markdown-folding.plugin` and `markdown-folding.py` into `~/.local/share/gedit/plugins`
+* Or:
 ```
 cd ~/.local/share/gedit/plugins
-git clone https://github.com/aeischeid/gedit-folding
+git clone https://github.com/apiquerasm/gedit-markdown-folding
 ```
-You can replace aeischeid by other developer - pick active one: https://github.com/aeischeid/gedit-folding/network
 
-Then
+Then:
 
 * In Gedit, go to Edit &rarr; Preferences &rarr; Plugins to enable the plugin.
 
-#### Windows
+## Usage
 
-**Note**: As stated in IRC conversation at #gedit public channel, gedit3 is not ready for Windows (yet). Eventually this installation section will be updated when gedit3 supports Windows.
-
-Usage
---------
-
-* `Alt-Z` on selected lines will collapse them
-* `Alt-Z` on an indented block's top line will collapse that block
-* `Alt-Z` on a folded block will expand it
-* `Alt-X` will collapse all blocks on the deepest indention column (you can keep pressing Alt-X until all indention levels are folded)
-* `Shift-Alt-X` will expand all the collapsed blocks
+* `Alt-Z` on a header line will collapse that section
+* `Alt-Z` on a folded section will expand it
