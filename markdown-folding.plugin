@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=markdown-folding
+IAge=3
+Name=Markdown Folding
+Description=Put the cursor on a Markdown header line and press Alt-Z to collapse/expand that section.
+Authors=Alex Piqueras
+Copyright=
+Website=https://github.com/apiquerasm/gedit-markdown-folding
